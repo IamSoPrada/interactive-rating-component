@@ -1,0 +1,128 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+:root{
+	--white: hsl(0, 0%, 100%);
+	--light-grey: hsl(217, 12%, 63%);
+	--medium-grey: #262F38;
+	--dark-blue: #212832;
+	--very-dark-blue: hsl(216, 12%, 8%);
+	--orange: hsl(25, 97%, 53%);
+}
+
+body {
+	font-family: 'Overpass', sans-serif;
+	font-size: 15px;
+}
+img{
+	 display: block;
+}
+
+.container {
+	display: flex;
+	padding: 0 15px;
+	height: 100vh;
+	justify-content: center;
+	align-items: center;
+	background-color: var(--very-dark-blue);
+}
+.form-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	max-width: 410px;
+	padding: 35px;
+	background-color: var(--dark-blue);
+	border-radius: 25px;
+}
+.form-header {
+	display: flex;
+	margin-bottom: 30px;
+}
+
+.form-icon {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 50px;
+	height: 50px;
+	background-color: var(--medium-grey);
+	border-radius: 50%;
+	transition: all 0.3s ease-out;
+}
+.form-icon:hover{
+	color: var(--white);
+	background-color: var(--light-grey)
+}
+.icon{
+	width: 16px;
+	height: 16px;
+}
+.form-body {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 25px;
+}
+.form-show-rating{
+	color: var(--orange);
+	border-radius: 25px;
+	display: inline-block;
+	margin-bottom: 30px;
+	padding: 5px 10px;
+	background-color: var(--medium-grey)
+}
+.form-title {
+	margin-bottom: 10px;
+	font-size: 28px;
+	font-weight: 700;
+	color: var(--white);
+}
+.form-text {
+	font-weight: 400;
+	color: var(--light-grey);
+	line-height: 25px;
+}
+.form-footer {
+	display: flex;
+	flex-direction: column;
+}
+.form-list {
+	display: flex;
+	list-style: none;
+	justify-content: space-between;
+	margin-bottom: 30px;
+}
+.list-item {
+	font-weight: 400;
+	color: var(--light-grey);
+	cursor: pointer;
+}
+.form-btn{
+	text-transform: uppercase;
+	padding: 15px 0;
+	border-radius: 50px;
+	color: var(--white);
+	font-weight: 400;
+	border: none;
+	background-color: var(--orange);
+	letter-spacing: 2px;
+	cursor: pointer;
+	transition: all 0.3s ease-out;
+
+}
+.form-btn:hover{
+	color: var(--orange);
+	background-color: var(--white);
+}
+
+.selected{
+	background-color: var(--orange);
+	color: var(--white);
+}
+.d-none{
+	display: none;
+}
