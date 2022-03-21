@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/IamSoPrada/interactive-rating-component)
-- Live Site URL: [Add live site URL here](https://interactive-rating-comp.netlify.app/)
+- Solution URL: [Github](https://github.com/IamSoPrada/interactive-rating-component)
+- Live Site URL: [Netlify](https://interactive-rating-comp.netlify.app/)
 
 ### Built with
 
